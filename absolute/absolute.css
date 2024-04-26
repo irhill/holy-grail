@@ -1,0 +1,51 @@
+:root {
+  --header-height: 1.2em;
+  --footer-height: 1.2em;
+  --nav-width: 12em;
+  --aside-width: 12em;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: calc(100vh - var(--header-height));
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: calc(100vh - var(--footer-height));
+}
+
+nav {
+  position: absolute;
+  top: var(--header-height);
+  bottom: var(--footer-height);
+  left: 0;
+  right: calc(100vw - var(--nav-width));
+}
+
+aside {
+  position: absolute;
+  top: var(--header-height);
+  bottom: var(--footer-height);
+  right: 0;
+  left: calc(100vw - var(--aside-width));
+}
+
+main {
+  position: absolute;
+  top: var(--header-height);
+  bottom: var(--footer-height);
+  left: var(--nav-width);
+  right: var(--aside-width);
+}

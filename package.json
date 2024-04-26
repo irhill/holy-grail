@@ -1,0 +1,15 @@
+{
+  "name": "holy-grail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "httpserver"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "httpserver": "0.3.0"
+  }
+}

@@ -1,0 +1,26 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: lightblue;
+}
+
+main {
+  background-color: lightgrey;
+}
+
+nav {
+  background-color: lightgreen;
+}
+
+aside {
+  background-color: lightgoldenrodyellow;
+}
+
+footer {
+  background-color: lightpink;
+}
